@@ -1,0 +1,30 @@
+.containe{
+  background-image: url('/src/assets/WhatsApp\ Image\ 2026-02-08\ at\ 11.41.38.jpeg');
+  width: 100%;
+  height: 900px;
+   background-position: center center; /* CENTRALIZA */
+  background-size: cover;             /* AJUSTA AO TAMANHO */
+  background-repeat: no-repeat;
+     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    color: #fff;
+
+  
+}
+
+.titulo{
+  text-align: center;
+}
+
+.subtitulo{
+  text-align: center;
+}
+
+.contacts{
+  display: flex;
+  gap: 10px;
+}
