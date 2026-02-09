@@ -9,10 +9,10 @@ import './section.css';
 
 // Importe suas imagens ou use os caminhos
 const backgroundImages = [
-  '/src/assets/imagem1.jpeg',
-  '/src/assets/imagem2.jpeg',
-  '/src/assets/imagem3.jpeg',
-  '/src/assets/imagem4.jpeg'
+  '/imagem1.jpeg',
+  '/imagem2.jpeg',
+  '/imagem3.jpeg',
+  '/imagem4.jpeg'
 ];
 
 export default function Section() {
