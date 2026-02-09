@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
+import SecaoServico from './components/servico/SecaoServico';
 import Navbar from './components/navbar/navbar'
 import Section from './components/section/section'
 import { useReveal } from './hooks/useReveal'
@@ -12,6 +13,9 @@ useReveal()
       <Navbar/>
       <div className="reveal">
            <Section/>
+      </div>
+      <div className="reveal">
+           <SecaoServico/>
       </div>
       <div className="reveal">
            <Section2/>
