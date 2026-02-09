@@ -8,6 +8,8 @@ import { useReveal } from './hooks/useReveal'
 import Section2 from './components/section2/section2'
 import Institu from './components/instituicional/inst';
 import Depoimentos from  './components/depoimentos/depoimentos';
+import Footer from './components/rodape/Footer';
+
 function App() {
 useReveal()
   return (
@@ -28,8 +30,9 @@ useReveal()
       <div className="reveal">
         <Depoimentos/>
       </div>
-      
-      
+      <div className="reveal">
+           <Footer/>
+      </div>
       
     </>
   )
