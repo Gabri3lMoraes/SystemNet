@@ -1,0 +1,86 @@
+.testimonials-section {
+  background-color: #0056b3; /* Ajuste para o tom de azul exato da imagem */
+  color: #ffffff;
+  padding: 80px 20px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.section-subtitle {
+  font-size: 1.1rem;
+  margin-bottom: 50px;
+  opacity: 0.9;
+}
+
+.testimonials-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap; /* Garante que em telas menores os cards quebrem a linha */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.testimonial-card {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 4px;
+  padding: 30px;
+  width: 350px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.stars {
+  color: #ffffff;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.testimonial-text {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  font-style: italic;
+  min-height: 80px; /* Mantém o alinhamento visual se os textos variarem */
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.user-avatar-placeholder {
+  width: 45px;
+  height: 45px;
+  background-color: #d1d1d1;
+  border-radius: 50%;
+}
+
+.user-name {
+  font-size: 0.95rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.user-role {
+  font-size: 0.85rem;
+  margin: 0;
+  opacity: 0.8;
+}
+
+/* Responsividade para Mobile */
+@media (max-width: 768px) {
+  .testimonial-card {
+    width: 100%;
+  }
+}

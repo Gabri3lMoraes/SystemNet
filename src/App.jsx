@@ -6,6 +6,12 @@ import Navbar from './components/navbar/navbar'
 import Section from './components/section/section'
 import { useReveal } from './hooks/useReveal'
 import Section2 from './components/section2/section2'
+
+
+
+
+import Depoimentos from './components/depoimentos/depoimentos';
+
 function App() {
 useReveal()
   return (
@@ -19,6 +25,16 @@ useReveal()
       </div>
       <div className="reveal">
            <Section2/>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      <div className="reveal">
+           <Depoimentos/>
       </div>
       
     </>

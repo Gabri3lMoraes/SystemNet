@@ -1,6 +1,6 @@
 .seccao-servicos {
   /* Aplicando o gradiente linear conforme sua paleta */
-  background: linear-gradient(180deg, #1100FF 0%, #006AE3 100%);
+  background: linear-gradient(90deg, #00c6a7, #0066cc);
   padding: 80px 20px;
   width: 100%;
 }
