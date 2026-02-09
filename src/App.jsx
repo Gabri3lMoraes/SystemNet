@@ -31,14 +31,6 @@ useReveal()
       
       
       
-      
-      
-      
-      
-      <div className="reveal">
-           <Depoimentos/>
-      </div>
-      
     </>
   )
 }
