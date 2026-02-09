@@ -87,8 +87,6 @@ SystemNet/
 │   │   └── servico/            # Seção de serviços
 │   ├── assets/                 # Imagens e recursos estáticos
 │   │   ├── logos/
-│   │   ├── vector/
-│   │   └── meme*.jpg           # Imagens de perfil dos depoimentos
 │   ├── hooks/
 │   │   └── useReveal.js        # Hook customizado para animações
 │   ├── App.jsx                 # Componente raiz
@@ -133,21 +131,25 @@ Hook criado para adicionar animações de reveal (aparecimento) nos elementos da
 
 ## 🚢 Deploy
 
-Para fazer deploy da aplicação:
+A aplicação já está **em produção no Netlify** e disponível para acesso público.
+
+### Ambiente de Produção
+- **Plataforma:** Netlify
+- **Status:** ✅ Em produção
+- **Link:** ............
+- **Build automático:** Ativado em cada push para a branch main
+
+### Processo de Deploy
+O deploy é realizado automaticamente sempre que há mudanças na branch principal:
 
 ```bash
-# Fazer build para produção
+# Build local para testes
 npm run build
 
-# Os arquivos otimizados estarão em dist/
+# Os arquivos otimizados gerados em dist/ são automaticamente sincronizados com o Netlify
 ```
 
-Os arquivos em `dist/` podem ser servidos por qualquer servidor web estático ou plataformas como:
-- Vercel
-- Netlify
-- GitHub Pages
-- AWS S3 + CloudFront
-- etc.
+Para atualizações no ambiente de produção, basta fazer push das mudanças para a branch main e o Netlify se encarregará do rebuild e deploy automático.
 
 ## 📝 Notas de Desenvolvimento
 
