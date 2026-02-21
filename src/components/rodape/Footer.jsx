@@ -25,11 +25,8 @@ const Footer = () => {
           </nav>
 
           <div className="footer-social">
-            <a href="#" aria-label="Facebook"><FaFacebookF /></a>
             <a href="#" aria-label="Instagram"><FaInstagram /></a>
-            <a href="#" aria-label="X"><FaXTwitter /></a>
             <a href="#" aria-label="LinkedIn"><FaLinkedinIn /></a>
-            <a href="#" aria-label="YouTube"><FaYoutube /></a>
           </div>
         </div>
 
