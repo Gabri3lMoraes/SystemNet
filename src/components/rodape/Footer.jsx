@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import logo from './assets/SystemLogo.png'; // Ajuste o caminho conforme sua estrutura
+import logo from '../../assets/SystemLogo.png'; // Ajuste o caminho conforme sua estrutura
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaYoutube } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
 
