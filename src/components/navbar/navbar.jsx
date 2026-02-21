@@ -7,7 +7,7 @@ export default function Navbar(){
         <nav className="navbar-expand custom-nav">
 
         <div className="nav-top container d-flex align-items-center justify-content-between">
-          <div className="logo text-white fw-bold"><img className='logo' src=".\src\assets\logos\systemlogo.png" alt="" /></div>
+          <div className="logo text-white fw-bold"><img className='logo' src=".\public\logos\systemlogo.png" alt="" /></div>
 
           <ul className="nav gap-4">
             <li className="nav-item text-white">Início</li>

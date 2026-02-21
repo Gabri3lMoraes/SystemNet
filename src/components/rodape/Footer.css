@@ -1,5 +1,5 @@
 .footer {
-    background: linear-gradient(90deg, #00c6a7, #0066cc);
+    background: #0F0F1A;
   color: #ffffff;
   padding: 60px 20px 30px;
   font-family: 'Arial', sans-serif;
@@ -20,7 +20,7 @@
 }
 
 .footer-logo img {
-  height: 40px; /* Ajuste conforme o tamanho da sua logo */
+  height: 80px; /* Ajuste conforme o tamanho da sua logo */
   width: auto;
 }
 
